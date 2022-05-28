@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        Bypass NYT Paywall
+@description Uses pure CSS to bypass The New York Times paywall
+@match       https://www.nytimes.com/*
+==/UserStyle== */
+
+#gateway-content,
+.css-gx5sib {
+    display: none;
+}
+
+.css-mcm29f {
+    position: static;
+    overflow: visible;
+}
