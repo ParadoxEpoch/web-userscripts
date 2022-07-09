@@ -1,7 +1,19 @@
 // ==UserScript==
-// @name        Bypass Herald Sun Paywall
-// @description Bypasses the Herald Sun paywall with an XHR and crawler UA header
+// @name        Bypass News Corp Paywalls
+// @description Bypasses various News Corp paywalls with an XHR and crawler UA header
 // @match       https://www.heraldsun.com.au/*
+// @match       https://www.dailytelegraph.com.au/*
+// @match       https://www.couriermail.com.au/*
+// @match       https://www.adelaidenow.com.au/*
+// @match       https://www.theaustralian.com.au/*
+// @match       https://www.themercury.com.au/*
+// @match       https://www.cairnspost.com.au/*
+// @match       https://www.goldcoastbulletin.com.au/*
+// @match       https://www.townsvillebulletin.com.au/*
+// @match       https://www.thechronicle.com.au/*
+// @match       https://www.ntnews.com.au/*
+// @match       https://www.weeklytimesnow.com.au/*
+// @match       https://www.geelongadvertiser.com.au/*
 // @require     https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js
 // ==/UserScript==
 
