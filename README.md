@@ -4,15 +4,19 @@ Various userscripts for use on the web. Most scripts are designed to be cross-co
 
 ---
 
-**[AntiPaywall_NewsCorp:](Paywall%20Bypasses/AntiPaywall_NewsCorp.js)** Bypasses most News Corp paywalls with an XHR and crawler UA header.
+**:newspaper: [AntiPaywall_NewsCorp:](Paywall%20Bypasses/AntiPaywall_NewsCorp.js)** Bypasses most News Corp paywalls with an XHR and crawler UA header.
 
-**[AntiPaywall_NYT:](Paywall%20Bypasses/AntiPaywall_NYT.js)** Bypasses The New York Times paywall.
+**:newspaper: [AntiPaywall_NYT:](Paywall%20Bypasses/AntiPaywall_NYT.js)** Bypasses The New York Times paywall.
 
-**[AntiPaywall_TheAge:](Paywall%20Bypasses/AntiPaywall_TheAge.js)** Bypasses The Age news paywall.
+**:newspaper: [AntiPaywall_TheAge:](Paywall%20Bypasses/AntiPaywall_TheAge.js)** Bypasses The Age news paywall.
 
-**[AntiPaywall_WaPo:](Paywall%20Bypasses/AntiPaywall_WaPo.js)** Bypasses Washington Post paywalls with an XHR.
+**:newspaper: [AntiPaywall_WaPo:](Paywall%20Bypasses/AntiPaywall_WaPo.js)** Bypasses Washington Post paywalls with an XHR.
 
-**[SteamDepotDownloader:](SteamDB/SteamDepotDownloader.js)** Generate download scripts on SteamDB for use with [DepotDownloader](https://github.com/SteamRE/DepotDownloader) to grab all manifests in a Steam depot.
+**:video_game: [SteamDepotDownloader:](SteamDepotDownloader/SteamDepotDownloader.js)** Generate download scripts on SteamDB for [DepotDownloader](https://github.com/SteamRE/DepotDownloader) to grab all manifests in a Steam depot.
+
+**:tv: [InvestigationDiscoveryDownloader:](InvestigationDiscoveryDownloader/InvestigationDiscoveryDownloader.js)** Generate download scripts for [YT-DLP](https://github.com/yt-dlp/yt-dlp) to download entire seasons of free access shows from ID/TLC.
+
+**:video_camera: [RedditDefaultVideoPlayer:](RedditDefaultVideoPlayer/RedditDefaultVideoPlayer.js)** Replaces the Reddit video player with the browser's default HTML5 player. *This script is unfinished.*
 
 ## :heart: Support
 
