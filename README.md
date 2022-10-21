@@ -12,7 +12,7 @@ Various userscripts for use on the web. Most scripts are designed to be cross-co
 
 **[AntiPaywall_WaPo:](Paywall%20Bypasses/AntiPaywall_WaPo.js)** Bypasses Washington Post paywalls with an XHR.
 
-**[SteamDepotDownloader:](SteamDB/SteamDepotDownloader.js)** Generate download scripts on SteamDB for use with DepotDownloader to grab all manifests in a Steam depot.
+**[SteamDepotDownloader:](SteamDB/SteamDepotDownloader.js)** Generate download scripts on SteamDB for use with DepotDownloader to grab all manifests in a Steam depot. Requires [DepotDownloader](https://github.com/SteamRE/DepotDownloader) for Windows.
 
 ## :heart: Support
 
