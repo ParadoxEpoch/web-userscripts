@@ -10,7 +10,7 @@
 // @grant        none
 // ==/UserScript==
 
-// ! This userscript is not finished.
+// ! This userscript is a work in progress.
 // ! * It only works on overlay Reddit posts (aka when clicking on a post from a subreddit, but not when visiting a post URL directly or refreshing on an overlay post).
 // ! * It also currently only plays the 480p version of a video. If no 480p version is available, the video will fail to load.
 // ! * Videos do not currently have sound.
