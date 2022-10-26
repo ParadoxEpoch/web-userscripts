@@ -4,13 +4,13 @@ Various userscripts for use on the web. Most scripts are designed to be cross-co
 
 ---
 
-**:newspaper: [AntiPaywall_NewsCorp:](Paywall%20Bypasses/AntiPaywall_NewsCorp.js)** Bypasses most News Corp paywalls with an XHR and crawler UA header.
+**:newspaper: [AntiPaywall_NewsCorp:](PaywallBypasses/AntiPaywall_NewsCorp.js)** Bypasses most News Corp paywalls with an XHR and crawler UA header.
 
-**:newspaper: [AntiPaywall_NYT:](Paywall%20Bypasses/AntiPaywall_NYT.js)** Bypasses The New York Times paywall.
+**:newspaper: [AntiPaywall_NYT:](PaywallBypasses/AntiPaywall_NYT.js)** Bypasses The New York Times paywall.
 
-**:newspaper: [AntiPaywall_TheAge:](Paywall%20Bypasses/AntiPaywall_TheAge.js)** Bypasses The Age news paywall.
+**:newspaper: [AntiPaywall_TheAge:](PaywallBypasses/AntiPaywall_TheAge.js)** Bypasses The Age news paywall.
 
-**:newspaper: [AntiPaywall_WaPo:](Paywall%20Bypasses/AntiPaywall_WaPo.js)** Bypasses Washington Post paywalls with an XHR.
+**:newspaper: [AntiPaywall_WaPo:](PaywallBypasses/AntiPaywall_WaPo.js)** Bypasses Washington Post paywalls with an XHR.
 
 **:video_game: [SteamDepotDownloader:](SteamDepotDownloader/SteamDepotDownloader.js)** Generate download scripts on SteamDB for [DepotDownloader](https://github.com/SteamRE/DepotDownloader) to grab all manifests in a Steam depot.
 
