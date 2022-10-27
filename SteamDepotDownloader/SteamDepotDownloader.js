@@ -6,6 +6,7 @@
 // @author       ParadoxEpoch
 // @match        https://steamdb.info/depot/*
 // @match        https://steamdb.info/app/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=store.steampowered.com
 // @grant        none
 // ==/UserScript==
 
