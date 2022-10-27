@@ -42,7 +42,7 @@ async function requestArticle(articleUrl) {
     // Display loading message so that users with slow connections don't think the script has failed
     articleBody.innerHTML = '<div style="text-align:center"><h2>Bypassing paywall, one moment please...</h2></div>';
     
-    // Make request with GoogleBot UA header
+    // Make request for article page
     const response = await axios.get(articleUrl);
     
     // Parse response HTML string
