@@ -2,7 +2,7 @@
 
 Sorry Bezos _(not sorry)_
 
-[View Script Page](AntiPaywall_WaPo.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_WaPo.js)
+[View Script Code](AntiPaywall_WaPo.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_WaPo.js)
 
 ## Write up
 
