@@ -1,6 +1,6 @@
 # New York Times Paywall Bypass
 
-[View Script Page](AntiPaywall_NYT.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_NYT.js)
+[View Script Code](AntiPaywall_NYT.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_NYT.js)
 
 ## Write up
 
