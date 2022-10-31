@@ -2,14 +2,13 @@
 
 Sorry Bezos _(not sorry)_
 
-Bypasses The Washington Post news paywall.
-
-[View Script](AntiPaywall_WaPo.js) [\[View Raw Version\]](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_TheAge.js)
+[View Script Page](AntiPaywall_WaPo.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_WaPo.js)
 
 ## Write up
-The Washington Post returns full articles in the initial GET request for a page. After the full article page loads, a script tag on the page executes which removes the article contents from the DOM and injects a paywall modal.
 
-By requesting the page again via an XHR, then filtering out the article container element from the response body and injecting it into the page we can restore the article contents. Then, some simple CSS injection can be used to hide the paywall modal.
+The Washington Post returns full articles in the initial GET request for a page. After the full article page loads, a script tag on the page removes the article contents from the DOM and injects a paywall modal.
+
+By requesting the page again via an XHR, then filtering out the article container element from the response body and injecting it back into the page we can restore the article contents. Then, some simple CSS injection can be used to hide the paywall modal.
 Since we aren't reloading the full page the paywall script doesn't execute again, so we're effectively able to restore the contents of the article and bypass the paywall with this method.
 
-An alternative approach might be to interrupt the paywall script, but this isn't practical since userscripts seem to be executed *after* on-page script tags and would be subject to race condition failures.
+An alternative approach might be to interrupt the paywall script, but this isn't practical since userscripts seem to be executed _after_ on-page script tags and would be subject to race condition failures.
