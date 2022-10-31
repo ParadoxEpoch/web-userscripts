@@ -47,7 +47,7 @@ Android browser support for userscripts isn't great. You'll need the [Firefox Ni
 3. Copy the URL for a script. You can do this by tapping one of the scripts [in the section above](#page_with_curl-available-scripts) and copying the _Raw Version_ link in the page that appears _(Tap and hold > Copy Link)_.
 4. Paste the URL that you copied into the _Import from URL_ section and click _Install_.
 
-## :heart: Contribute
+## :heart: Contributing
 
 If you have any improvements, fixes or suggestions for future userscripts feel free to submit a pull request or open a new issue.
 
