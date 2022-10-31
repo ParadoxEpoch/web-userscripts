@@ -4,7 +4,7 @@ Rupert's not amused.
 
 ![Rupert Murdoch](https://cdn.theatlantic.com/media/mt/steve_clemons/murdoch.jpg)
 
-[View Script Page](AntiPaywall_NewsCorp.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_NewsCorp.js)
+[View Script Code](AntiPaywall_NewsCorp.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_NewsCorp.js)
 
 ## Write up
 
