@@ -34,7 +34,7 @@ These scripts are only tested on Chromium-based desktop browsers, but should wor
 You'll need iOS 15 or later to run userscripts in Safari.
 
 1. Install [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887) from the App Store.
-2. Download a script from this page by clicking it [in the section above](#page_with_curl-available-scripts), right clicking the _Raw Version_ link on the page that appears and choosing "Save as...".
+2. Download a script from this page by clicking it [in the section above](#page_with_curl-available-scripts), right clicking the _Install Userscript_ link on the page that appears and choosing "Save as...".
 3. Transfer the downloaded script to your device via AirDrop, Email etc. and save it to a folder on your device using the _Files_ app or similar.
 4. Open the _Userscripts_ app, follow the instructions to set it up and choose the folder you saved your script(s) to as the _Userscripts Directory_.
 5. Open Safari and navigate to a webpage that's targeted by the script you downloaded.
@@ -48,7 +48,7 @@ Android browser support for userscripts isn't great. You'll need the [Firefox Ni
 
 1. Follow [this YouTube video](https://www.youtube.com/watch?v=RzmJcEr_uts) **until 3:10** in order to install and configure Firefox Nightly with the Tampermonkey add-on.
 2. Choose the _Utilities_ tab.
-3. Copy the URL for a script. You can do this by tapping one of the scripts [in the section above](#page_with_curl-available-scripts) and copying the _Raw Version_ link in the page that appears _(Tap and hold > Copy Link)_.
+3. Copy the URL for a script. You can do this by tapping one of the scripts [in the section above](#page_with_curl-available-scripts) and copying the _Install Userscript_ link in the page that appears _(Tap and hold > Copy Link)_.
 4. Paste the URL that you copied into the _Import from URL_ section and click _Install_.
 
 ## :heart: Contributing
