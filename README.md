@@ -12,26 +12,25 @@ Various userscripts for use on the web. Most scripts are designed to be cross-co
 
 **:newspaper: [AntiPaywall_WaPo:](PaywallBypasses/AntiPaywall_WaPo.md)** Bypasses Washington Post paywalls with an XHR.
 
-**:video_game: [SteamDepotDownloader:](SteamDepotDownloader/SteamDepotDownloader.js)** Generate download scripts on SteamDB for [DepotDownloader](https://github.com/SteamRE/DepotDownloader) to grab all manifests in a Steam depot.
+**:video_game: [SteamDepotDownloader:](SteamDepotDownloader/SteamDepotDownloader.user.js)** Generate download scripts on SteamDB for [DepotDownloader](https://github.com/SteamRE/DepotDownloader) to grab all manifests in a Steam depot.
 
-**:tv: [InvestigationDiscoveryDownloader:](InvestigationDiscoveryDownloader/InvestigationDiscoveryDownloader.js)** Generate download scripts for [YT-DLP](https://github.com/yt-dlp/yt-dlp) to download entire seasons of free access shows from ID/TLC.
+**:tv: [InvestigationDiscoveryDownloader:](InvestigationDiscoveryDownloader/InvestigationDiscoveryDownloader.user.js)** Generate download scripts for [YT-DLP](https://github.com/yt-dlp/yt-dlp) to download entire seasons of free access shows from ID/TLC.
 
-**:tv: [RedditDefaultVideoPlayer:](RedditDefaultVideoPlayer/RedditDefaultVideoPlayer.js)** Replaces the Reddit video player with the browser's default HTML5 player. *This script is unfinished.*
+**:tv: [RedditDefaultVideoPlayer:](RedditDefaultVideoPlayer/RedditDefaultVideoPlayer.user.js)** Replaces the Reddit video player with the browser's default HTML5 player. :construction: _This script is unfinished._ :construction:
 
 **:tv: [ReturnYouTubeMetadata:](ReturnYouTubeMetadata/ReturnYouTubeMetadata.md)** Returns YouTube's precise video view count and upload date to above the fold where it belongs.
 
 ## :electric_plug: Installation
 
 ### Desktop Web Browsers (Chrome, Edge, Brave etc.)
+
 These scripts are only tested on Chromium-based desktop browsers, but should work on any web browser that has a userscript manager extension such as [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
 
 1. Install [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) from the Chrome Web Store or equivalent browser add-on store.
-2. Copy the URL for a script. You can do this by clicking one of the scripts [in the section above](#page_with_curl-available-scripts) and copying the _Raw Version_ link in the page that appears _(Right click > Copy Link Address)_.
-3. Open the Tampermonkey extension from the extensions menu in your browser. On Chromium-based browsers this is the puzzle piece icon in the top right.
-4. Choose the _Utilities_ tab on the page that opens.
-5. Paste the URL that you copied into the _Import from URL_ section and click _Install_.
+2. Click the script you want to install [in the section above](#page_with_curl-available-scripts), then click _Install Userscript_ on the page that appears. Provided _TamperMonkey_ or an equivalent Userscript manager is present, you'll get a prompt to install the script.
 
 ### Apple iOS / iPadOS (Safari)
+
 You'll need iOS 15 or later to run userscripts in Safari.
 
 1. Install [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887) from the App Store.
@@ -42,6 +41,9 @@ You'll need iOS 15 or later to run userscripts in Safari.
 6. Open the Reader/Extensions menu from the address bar, then choose the _Userscripts_ option from the Reader/Extensions menu and make sure the script you downloaded appears and is switched on.
 
 ### Android
+
+:warning: This method has not been personally tested. It should work but could break at any time.
+
 Android browser support for userscripts isn't great. You'll need the [Firefox Nightly](https://play.google.com/store/apps/details?id=org.mozilla.fenix) browser from the Play Store. If anyone has a better method for running userscripts on Android, please open an issue or submit a pull request.
 
 1. Follow [this YouTube video](https://www.youtube.com/watch?v=RzmJcEr_uts) **until 3:10** in order to install and configure Firefox Nightly with the Tampermonkey add-on.

@@ -1,6 +1,6 @@
 # The Age Paywall Bypass
 
-[View Script Code](AntiPaywall_TheAge.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_TheAge.js)
+[Install Userscript](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_TheAge.user.js) | [View Code](AntiPaywall_TheAge.user.js)
 
 ## Write up
 
