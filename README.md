@@ -16,7 +16,9 @@ Various userscripts for use on the web. Most scripts are designed to be cross-co
 
 **:tv: [InvestigationDiscoveryDownloader:](InvestigationDiscoveryDownloader/InvestigationDiscoveryDownloader.js)** Generate download scripts for [YT-DLP](https://github.com/yt-dlp/yt-dlp) to download entire seasons of free access shows from ID/TLC.
 
-**:video_camera: [RedditDefaultVideoPlayer:](RedditDefaultVideoPlayer/RedditDefaultVideoPlayer.js)** Replaces the Reddit video player with the browser's default HTML5 player. *This script is unfinished.*
+**:tv: [RedditDefaultVideoPlayer:](RedditDefaultVideoPlayer/RedditDefaultVideoPlayer.js)** Replaces the Reddit video player with the browser's default HTML5 player. *This script is unfinished.*
+
+**:tv: [ReturnYouTubeMetadata:](ReturnYouTubeMetadata/ReturnYouTubeMetadata.md)** Returns YouTube's precise video view count and upload date to above the fold where it belongs.
 
 ## :electric_plug: Installation
 
