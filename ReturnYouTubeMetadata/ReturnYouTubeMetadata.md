@@ -1,6 +1,6 @@
 # Return YouTube Metadata
 
-[View Script Code](ReturnYouTubeMetadata.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/ReturnYouTubeMetadata/ReturnYouTubeMetadata.js)
+[View Script Code](ReturnYouTubeMetadata.user.js) | [Raw Version](https://raw.githubusercontent.com/Maega/web-userscripts/main/ReturnYouTubeMetadata/ReturnYouTubeMetadata.user.js)
 
 The new October 2022 YouTube Web UI moved precise video view counts and upload dates below the fold, requiring users to scroll down and click "show more". This script returns that metadata above the fold so that it can be seen at a glance on any video watch page.
 
