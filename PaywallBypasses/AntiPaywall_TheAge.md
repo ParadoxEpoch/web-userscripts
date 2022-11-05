@@ -4,7 +4,7 @@
 
 ## Write up
 
-The Age allows users to view three free articles per month. This is enforced entirely client-side by storing an object in the user's browser via the localStorage API _(similar to a cookie)_. The object is named 'ffx:paywallCount' and it keeps track of free article views and the date that the three article limit will reset.
+The Age allows users to view three free articles per month. This is enforced entirely client-side by storing an object in the user's browser via the localStorage API _(similar to a cookie)_. The object is named `ffx:paywallCount` and it keeps track of free article views and the date that the three article limit will reset.
 
 `{"expires":"2022-11-26T04:37:56.558Z","value":0}`
 
