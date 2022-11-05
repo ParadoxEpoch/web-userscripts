@@ -6,6 +6,24 @@ Rupert's not amused.
 
 [Install Userscript](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_NewsCorp.user.js) | [View Code](AntiPaywall_NewsCorp.user.js)
 
+## Supported Sites
+
+The following News Corp properties use the same paywall implementation and are explicitly supported:
+
+- [Herald Sun](https://www.heraldsun.com.au)
+- [Daily Telegraph](https://www.dailytelegraph.com.au)
+- [Courier Mail](https://www.couriermail.com.au)
+- [Adelaide Now](https://www.adelaidenow.com.au)
+- [The Australian](https://www.theaustralian.com.au)
+- [The Mercury](https://www.themercury.com.au)
+- [Cairns Post](https://www.cairnspost.com.au)
+- [Gold Coast Bulletin](https://www.goldcoastbulletin.com.au)
+- [Townsville Bulletin](https://www.townsvillebulletin.com.au)
+- [The Chronicle](https://www.thechronicle.com.au)
+- [NT News](https://www.ntnews.com.au)
+- [Weekly Times Now](https://www.weeklytimesnow.com.au)
+- [Geelong Advertiser](https://www.geelongadvertiser.com.au)
+
 ## Write up
 
 News Corp uses one of the most sophisticated server-side paywall implementations I've seen yet _(which isn't saying much)_. However, since it still needs to permit search engine crawlers to index the article there's inevitably going to be a way around the paywall.
