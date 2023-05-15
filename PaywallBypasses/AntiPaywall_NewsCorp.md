@@ -6,6 +6,16 @@ Rupert's not amused.
 
 [Install Userscript](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_NewsCorp.user.js) | [View Code](AntiPaywall_NewsCorp.user.js)
 
+## ⚠️ Compatibility Notice
+
+**TLDR: This bypass only works on non-Chromium browsers like Safari and Firefox.**
+
+Chromium-based browsers (Chrome, Brave, Edge etc.) do not allow for the User-Agent header to be set in outgoing requests made by scripts, meaning this bypass won't work on Chrome and other Chromium browsers.
+
+I'll have to develop a dedicated extension to work around this limitation for these browsers.
+
+In the meantime, the bypass works fine on Safari or on newer versions of Firefox as they don't have this limitation.
+
 ## Supported Sites
 
 The following News Corp properties use the same paywall implementation and are explicitly supported:
