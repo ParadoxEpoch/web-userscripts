@@ -24,7 +24,7 @@ if (!window.location.href.includes('/news/') && !window.location.href.includes('
 async function requestArticle(articleUrl) {
     
     // Display loading message so that users with slow connections don't think the script has failed
-    document.querySelector('body').innerHTML = '<div style="display:flex;height:100vh;width:100vw;justify-content:center;align-items:center;text-align:center"><h2>Loading your news article, one moment please...</h2></div>';
+    document.querySelector('body').innerHTML = '<div style="display:flex;height:100vh;width:100vw;justify-content:center;align-items:center;text-align:center"><h2>Bypassing paywall, one moment please...</h2></div>';
     
     // Remove "amp" query param if present since requesting this page as GoogleBot with the parameter returns a 403
     const targetUrl = articleUrl.replace('?amp', '?');
