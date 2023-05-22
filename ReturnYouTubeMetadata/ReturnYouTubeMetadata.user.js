@@ -15,6 +15,8 @@
     let metadata;
     const sleep = m => new Promise(r => setTimeout(r, m));
 
+    const tooltipSelector = 'ytd-watch-metadata #description #tooltip';
+
     async function init() {
 
         // Wait for video metadata to be loaded into the DOM, then proceed...
@@ -22,11 +24,11 @@
         while (!isReady) {
             await sleep(500);
             console.log('Waiting for video metadata to load...');
-            isReady = !!document.querySelector('ytd-watch-metadata #description-inner #tooltip') && !!document.querySelector('#above-the-fold #title h1 > yt-formatted-string') && !!document.querySelector('ytd-watch-metadata #description-inner #tooltip').innerText.trim();
+            isReady = !!document.querySelector(tooltipSelector) && !!document.querySelector('#above-the-fold #title h1 > yt-formatted-string') && !!document.querySelector(tooltipSelector).innerText.trim();
         }
 
         // Fetch metadata string
-        metadata = document.querySelector('ytd-watch-metadata #description-inner #tooltip').innerText.trim();
+        metadata = document.querySelector(tooltipSelector).innerText.trim();
 
         // If our element to inject already exists in the DOM, just update its contents. Otherwise, create the element and inject it now.
         // ? The element already exists when navigating to another video directly from a watch page since the title container element doesn't get reset.
@@ -63,7 +65,7 @@
                         await sleep(500);
                         console.log('Waiting for metadata update...');
                         isReady = currentMetadataElem
-                            ? document.querySelector('ytd-watch-metadata #description-inner #tooltip').innerText.trim() !== metadata
+                            ? document.querySelector(tooltipSelector).innerText.trim() !== metadata
                             : true;
                         if (isReady) init();
                     }
