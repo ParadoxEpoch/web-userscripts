@@ -2,7 +2,14 @@
 
 [Install Userscript](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_TheAge.user.js) | [View Code](AntiPaywall_TheAge.user.js)
 
+## May 2023 Update
+
+The Age has changed their paywall implementation and removing the `ffx:paywallCount` object from localStorage no longer works.
+The updated version of the bypass now works by requesting the article via a background XHR, injecting the article body back into the page and removing the paywall prompt.
+
 ## Write up
+
+**⚠️ This write up is outdated and no longer applies to the current implementation**
 
 The Age allows users to view three free articles per month. This is enforced entirely client-side by storing an object in the user's browser via the localStorage API _(similar to a cookie)_. The object is named `ffx:paywallCount` and it keeps track of free article views and the date that the three article limit will reset.
 
