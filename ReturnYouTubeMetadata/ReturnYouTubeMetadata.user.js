@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Return YouTube Metadata
 // @namespace    https://github.com/maega
-// @version      1.0
+// @version      1.0.1
 // @description  Returns the precise video view count and upload date to above the fold where it belongs!
 // @author       ParadoxEpoch
 // @match        https://www.youtube.com/*
@@ -26,6 +26,12 @@
             console.log('Waiting for video metadata to load...');
             isReady = !!document.querySelector(tooltipSelector) && !!document.querySelector('#above-the-fold #title h1 > yt-formatted-string') && !!document.querySelector(tooltipSelector).innerText.trim();
         }
+
+        // Clear the contents of the metadata element if it already exists
+        if (document.querySelectorAll('#aboveTheFoldMetadata').length) document.querySelector('#aboveTheFoldMetadata').innerText = 'Loading...';
+
+        // Wait 1 sec to prevent race condition when changing videos
+        await sleep(1000);
 
         // Fetch metadata string
         metadata = document.querySelector(tooltipSelector).innerText.trim();
