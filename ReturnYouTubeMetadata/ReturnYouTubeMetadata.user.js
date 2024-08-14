@@ -17,6 +17,10 @@
 
     const tooltipSelector = 'ytd-watch-metadata #description #tooltip';
 
+    const escapeHTMLPolicy = trustedTypes.createPolicy("forceInner", {
+        createHTML: (to_escape) => to_escape
+    })
+
     async function init() {
 
         // Wait for video metadata to be loaded into the DOM, then proceed...
@@ -41,7 +45,7 @@
         if (document.querySelectorAll('#aboveTheFoldMetadata').length) {
             document.querySelector('#aboveTheFoldMetadata').innerText = metadata;
         } else {
-            document.querySelector('#above-the-fold #title h1 > yt-formatted-string').insertAdjacentHTML('beforeend', `<span id="aboveTheFoldMetadata" style="font-size: smaller; position: absolute; right: 0px; color: rgb(255 255 255 / 75%);">${metadata}</span>`);
+            document.querySelector('#above-the-fold #title h1 > yt-formatted-string').insertAdjacentHTML('beforeend', escapeHTMLPolicy.createHTML(`<span id="aboveTheFoldMetadata" style="font-size: smaller; position: absolute; right: 0px; color: rgb(255 255 255 / 75%);">${metadata}</span>`));
         }
     }
 
