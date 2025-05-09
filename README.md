@@ -14,6 +14,8 @@ Various userscripts for use on the web. Most scripts are designed to be cross-co
 
 **:video_game: [SteamDepotDownloader:](SteamDepotDownloader/SteamDepotDownloader.user.js)** Generate download scripts on SteamDB for [DepotDownloader](https://github.com/SteamRE/DepotDownloader) to grab all manifests in a Steam depot.
 
+**:shopping: [CashrewardsSortDeals:](CashrewardsSortDeals/CashrewardsSortDeals.md)** Automatically loads all participating Cashrewards stores and sorts them by highest cashback percentage.
+
 **:tv: [InvestigationDiscoveryDownloader:](InvestigationDiscoveryDownloader/InvestigationDiscoveryDownloader.user.js)** Generate download scripts for [YT-DLP](https://github.com/yt-dlp/yt-dlp) to download entire seasons of free access shows from ID/TLC.
 
 **:tv: [RedditDefaultVideoPlayer:](RedditDefaultVideoPlayer/RedditDefaultVideoPlayer.user.js)** Replaces the Reddit video player with the browser's default HTML5 player. :construction: _This script is unfinished._ :construction:
