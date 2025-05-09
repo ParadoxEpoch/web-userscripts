@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Improved Reddit Video Player
-// @namespace    https://www.reddit.com/
+// @namespace    https://github.com/paradoxepoch
 // @version      0.1
 // @description  Replaces the Reddit video player with the browser's default HTML5 player
 // @author       ParadoxEpoch

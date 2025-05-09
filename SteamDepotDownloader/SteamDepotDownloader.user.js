@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Create Download Script for SteamDB Manifests
-// @namespace    https://steamdb.info/
+// @namespace    https://github.com/paradoxepoch
 // @version      0.1
 // @description  Creates a script to download all manifests for a depot on SteamDB
 // @author       ParadoxEpoch

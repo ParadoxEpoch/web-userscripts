@@ -1,6 +1,6 @@
 # The Age Paywall Bypass
 
-[Install Userscript](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_TheAge.user.js) | [View Code](AntiPaywall_TheAge.user.js)
+[Install Userscript](https://raw.githubusercontent.com/ParadoxEpoch/web-userscripts/main/PaywallBypasses/AntiPaywall_TheAge.user.js) | [View Code](AntiPaywall_TheAge.user.js)
 
 ## May 2023 Update
 

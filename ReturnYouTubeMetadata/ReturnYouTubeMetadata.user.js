@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Return YouTube Metadata
-// @namespace    https://github.com/maega
+// @namespace    https://github.com/paradoxepoch
 // @version      1.0.1
 // @description  Returns the precise video view count and upload date to above the fold where it belongs!
 // @author       ParadoxEpoch

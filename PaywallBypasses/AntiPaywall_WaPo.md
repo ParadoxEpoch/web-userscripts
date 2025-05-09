@@ -2,7 +2,7 @@
 
 Sorry Bezos _(not sorry)_
 
-[Install Userscript](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_WaPo.user.js) | [View Code](AntiPaywall_WaPo.user.js)
+[Install Userscript](https://raw.githubusercontent.com/ParadoxEpoch/web-userscripts/main/PaywallBypasses/AntiPaywall_WaPo.user.js) | [View Code](AntiPaywall_WaPo.user.js)
 
 ## Write up
 

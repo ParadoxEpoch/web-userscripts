@@ -1,6 +1,6 @@
 # New York Times Paywall Bypass
 
-[Install Userscript](https://raw.githubusercontent.com/Maega/web-userscripts/main/PaywallBypasses/AntiPaywall_NYT.user.js) | [View Code](AntiPaywall_NYT.user.js)
+[Install Userscript](https://raw.githubusercontent.com/ParadoxEpoch/web-userscripts/main/PaywallBypasses/AntiPaywall_NYT.user.js) | [View Code](AntiPaywall_NYT.user.js)
 
 ## Write up
 

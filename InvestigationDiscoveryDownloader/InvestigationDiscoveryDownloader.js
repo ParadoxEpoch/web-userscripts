@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Create Download Script for YT-DLP
-// @namespace    https://investigationdiscovery.com
+// @namespace    https://github.com/paradoxepoch
 // @version      0.1
 // @description  Creates download scripts to use with YT-DLP on Investigation Discovery and TLC
 // @author       ParadoxEpoch
